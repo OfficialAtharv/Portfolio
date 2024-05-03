@@ -28,13 +28,13 @@ const About = () => {
           delivering robust and scalable solutions that stand the test of time.
         </p>
         <br />
-        <p className="text-xl">
+{/*         <p className="text-xl">
           Driven by a relentless passion for innovation and a commitment to
           excellence, I thrive in dynamic environments where challenges fuel my
           growth and opportunities abound. With an unwavering dedication to
           pushing boundaries and exceeding expectations, I am poised to leave an
           indelible mark on the ever-evolving landscape of technology.
-        </p>
+        </p> */}
       </div>
     </div>
   );
