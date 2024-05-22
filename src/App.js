@@ -7,7 +7,10 @@ import Portfolio from "./componants/Portfolio";
 import SocialLinks from "./componants/SocialLinks";
 
 function App() {
+<<<<<<< HEAD
   
+=======
+>>>>>>> 31e497da7f593c05a94856124cc92eb7cfa9f56c
   return (
    <div>
     <Navbar/>
