@@ -1,10 +1,6 @@
 import React from "react";
 import heroImage from "../assets/heroImage.jpg";
-<<<<<<< HEAD
 import {Link} from "react-scroll";
-=======
-import {Links} from "react-scroll";
->>>>>>> 31e497da7f593c05a94856124cc92eb7cfa9f56c
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 const Home = () => {
   return (
