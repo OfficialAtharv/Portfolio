@@ -7,6 +7,7 @@ import reactSmooth from '../assets/portfolio/reactSmooth.jpg'
 
 
 const Portfolio = () => {
+  
   const portfolios =[
     {
       id:1,
@@ -29,6 +30,9 @@ const Portfolio = () => {
     },
     
   ]
+  const handleDemoButtonClick = () => {
+    alert('The working of above functionality is still under developement please visite after some time ! Thank you :)');
+  };
   return (
     <div name="portolio" className='bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen'>
       <div className='max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full'>
@@ -43,8 +47,7 @@ const Portfolio = () => {
              <div key={id}className='shadow-md shadow-gray-600 rounded-lg'>
              <img src={src} alt=""  className='rounded-md duration-200 hover:scale-105'/>
              <div className='flex items-center justify-center'>
-               <button className='w1/2 px-6 py-2 m-4 duration-200 hover:scale-105'>Demo</button>
-               <button>Code</button>              
+               <button className='w1/2 px-6 py-2 m-4 duration-200 hover:scale-105' onClick={handleDemoButtonClick}>Demo</button>          
              </div>
            </div>
             ))}
